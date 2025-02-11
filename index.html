@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biografi Shofiana Winocita</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      hr {
+        margin: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header: Judul dan Navigasi -->
+    <header>
+      <h1>SHOFIANA WINOCITA</h1>
+      <h2>Mahasiswa</h2>
+      <nav>
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#pengalaman">Pengalaman</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+      <!-- Bagian Tentang (Biografi) -->
+      <article id="tentang">
+        <h3>TENTANG SAYA</h3>
+        <img src="img\DSCF6997.rs-removebg-preview.png" alt="Foto Diri" 
+        width="150"
+        />
+        <br>
+        <table border="1">
+          <tbody>
+            <tr>
+              <td>Nama</td>
+              <td>Shofiana Winocita</td>
+            </tr>
+            <tr>
+              <td>NIM</td>
+              <td>241524061</td>
+            </tr>
+            <tr>
+              <td>Prodi</td>
+              <td>D4 Teknik Informatika</td>
+            </tr>
+            <tr>
+              <td>TTL</td>
+              <td>Bandung, 11 November 2006</td>
+            </tr>
+            <tr>
+              <td>  Domisili  </td>
+              <td>Cimahi</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <p>
+          Saya adalah seorang mahasiswa baru dari Politeknik Negeri Bandung tahun 2024 yang diterima di jalur SNBT dengan program studi D4 Teknik Informatika.
+        </p>
+        <div>
+          <p>
+            Saya memiliki minat yang tinggi untuk menyelesaikan perkuliahan di sini.
+          </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+      </article>
+
+      <!-- Bagian Pengalaman -->
+      <article id="pengalaman">
+        <h3>RIWAYAT PENDIDIKAN</h3>
+        <ul>
+          <li>SD Angkasa 1 (2012-2018)</li>
+          <li>SMPN 10 Cimahi (2018-2021)</li>
+          <li>SMAN 3 Cimahi (2021-2024)</li>
+          <li>Politeknik Negeri Bandung (2024-sekarang)</li>
+        </ul>
+      </article>
+
+      <!-- Bagian Keterampilan: Tabel Keterampilan -->
+      <article id="keterampilan">
+        <h3>KETERAMPILAN</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Keterampilan</th>
+              <th>Proficiency</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML/CSS</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>C</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>Digital Art</td>
+              <td>Beginner</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- Aside: Informasi Tambahan -->
+        <aside>
+          <h4>Tambahan:</h4>
+          <p>Saya sedang pelan-pelan belajar coding sambil berkuliah.</p>
+          <div>
+            <p>Hobi saya adalah menggambar dan bermain game.</p>
+          </div>
+          <img src="img\sangonomiya.png" alt="Foto Diri" 
+            height="250"
+          />
+          <img src="img\hayi.png" alt="Foto Diri" 
+            height="250"
+          />
+          <img src="img\ganyuwangi.png" alt="Foto Diri" 
+            height="250"
+          />
+        </aside>
+      </article>
+    </main>
+
+    
+
+    <!-- Footer: Kontak -->
+    <footer id="kontak">
+      <h3>HUBUNGI SAYA</h3>
+      <p>
+        Email: shofianawinocita@gmail.com
+      </p>
+      <div>
+        <p>
+          No. Telepon: 081910607940
+        </p>
+      <form action="#" method="post">
+        <label for="name">Masukkan nama kamu:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+
+        <label for="options">Pilih opsi:</label>
+        <select id="options" name="option">
+          <option value="option1">Pertama</option>
+          <option value="option2">Kedua</option>
+        </select><br /><br />
+
+        <label for="color">Pilih warna:</label>
+        <input type="color" id="color" name="color" /><br /><br />
+
+        <label for="start">Tanggal Mulai:</label>
+        <input type="date" id="start" name="start" value="2025-02-11" /><br /><br />
+
+        <fieldset>
+          <legend>Pilih salah satu:</legend>
+          <input type="radio" id="r1" name="radio" value="Radio 1" />
+          <label for="r1">Radio 1</label>
+          <input type="radio" id="r2" name="radio" value="Radio 2" />
+          <label for="r2">Radio 2</label>
+          <input type="radio" id="r3" name="radio" value="Radio 3" />
+          <label for="r3">Radio 3</label>
+        </fieldset>
+        <br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </footer>
+  </body>
+</html>

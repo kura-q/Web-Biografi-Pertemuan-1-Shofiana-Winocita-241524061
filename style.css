@@ -1,0 +1,106 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 500;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+    background-color: #bae0d9;
+    background-image: url('img/namecard.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+h1 {
+  color: #5db9ab;
+  font-size: 46px;
+}
+
+h2 {
+  color: #5db9ab;
+}
+
+h3 {
+  color: #437e8b;
+  font-size: 32px;
+}
+
+footer h3 {
+  color: white;
+}
+  
+  header {
+    background-color: #404e56;
+    padding: 20px;
+  }
+
+  footer {
+    padding: 20px;
+    background-color: #404e56;
+    color: white;
+  }
+
+  nav a {
+    color: white;
+  }
+  
+  nav ul {
+    list-style: circle;
+    padding: 0;
+  }
+
+  ul {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  article#tentang {
+    background: white;
+    border: 3px solid #15453c;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; 
+    max-width: 800px; 
+    border-radius: 15px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  article#pengalaman {
+    text-align: center;
+    background: white;
+    border: 3px solid #15453c;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; 
+    max-width: 800px; 
+    border-radius: 15px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  article#keterampilan {
+    text-align: center;
+    background: white;
+    border: 3px solid #15453c;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; 
+    max-width: 800px; 
+    border-radius: 15px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  main, aside {
+    padding: 20px;
+  }
+
+  table {
+    margin: auto;
+  }

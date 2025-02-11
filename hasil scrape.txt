@@ -1,0 +1,23 @@
+Heading Utama: SHOFIANA WINOCITA
+H1: SHOFIANA WINOCITA     
+H2: Mahasiswa
+H3: TENTANG SAYA
+H3: RIWAYAT PENDIDIKAN    
+H3: KETERAMPILAN
+H3: Hubungi Saya
+H4: Tambahan:
+Paragraf 1 dalam Tentang: 
+          Saya adalah seorang mahasiswa baru dari Politeknik Negeri Bandung tahun 2024 yang diterima di jalur SNBT dengan program studi D4 Teknik Informatika.
+
+Paragraf 2 dalam Tentang:
+            Saya memiliki minat yang tinggi untuk menyelesaikan perkuliahan di sini.
+
+Link Navigasi: #tentang - Tentang
+Link Navigasi: #pengalaman - Pengalaman
+Link Navigasi: #kontak - Kontak
+Input Form: name Tipe: text
+Input Form: color Tipe: color
+Input Form: start Tipe: date
+Input Form: radio Tipe: radio
+Input Form: radio Tipe: radio
+Input Form: radio Tipe: radio
